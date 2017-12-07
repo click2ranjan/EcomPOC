@@ -40,6 +40,10 @@
 		5357DA561FD9AF30003B9EFA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA4E1FD9AF30003B9EFA /* FMDatabaseQueue.m */; };
 		5357DA571FD9AF30003B9EFA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA501FD9AF30003B9EFA /* FMDatabaseAdditions.m */; };
 		5357DA591FD9AFB9003B9EFA /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA581FD9AFB9003B9EFA /* SQLiteManager.swift */; };
+		5357DA5B1FD9B7C6003B9EFA /* Productpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA5A1FD9B7C6003B9EFA /* Productpage.swift */; };
+		5357DA5D1FD9B7F4003B9EFA /* tblcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA5C1FD9B7F4003B9EFA /* tblcell.swift */; };
+		5357DA5F1FD9B82C003B9EFA /* productcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA5E1FD9B82C003B9EFA /* productcell.swift */; };
+		5357DA611FD9B88B003B9EFA /* Subcategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA601FD9B88B003B9EFA /* Subcategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +111,10 @@
 		5357DA501FD9AF30003B9EFA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		5357DA511FD9AF30003B9EFA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		5357DA581FD9AFB9003B9EFA /* SQLiteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
+		5357DA5A1FD9B7C6003B9EFA /* Productpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Productpage.swift; sourceTree = "<group>"; };
+		5357DA5C1FD9B7F4003B9EFA /* tblcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tblcell.swift; sourceTree = "<group>"; };
+		5357DA5E1FD9B82C003B9EFA /* productcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productcell.swift; sourceTree = "<group>"; };
+		5357DA601FD9B88B003B9EFA /* Subcategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subcategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +173,10 @@
 				5357D9F61FD9AB3E003B9EFA /* LaunchScreen.storyboard */,
 				5357D9F91FD9AB3F003B9EFA /* Info.plist */,
 				5357DA581FD9AFB9003B9EFA /* SQLiteManager.swift */,
+				5357DA5A1FD9B7C6003B9EFA /* Productpage.swift */,
+				5357DA5C1FD9B7F4003B9EFA /* tblcell.swift */,
+				5357DA5E1FD9B82C003B9EFA /* productcell.swift */,
+				5357DA601FD9B88B003B9EFA /* Subcategory.swift */,
 			);
 			path = EcomPOC;
 			sourceTree = "<group>";
@@ -382,9 +394,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5357DA391FD9AF1B003B9EFA /* ServerTrustPolicy.swift in Sources */,
+				5357DA5D1FD9B7F4003B9EFA /* tblcell.swift in Sources */,
 				5357DA331FD9AF1B003B9EFA /* DispatchQueue+Alamofire.swift in Sources */,
 				5357DA441FD9AF1B003B9EFA /* TaskDelegate.swift in Sources */,
 				5357DA521FD9AF30003B9EFA /* FMDatabase.m in Sources */,
+				5357DA5F1FD9B82C003B9EFA /* productcell.swift in Sources */,
 				5357DA3A1FD9AF1B003B9EFA /* ParameterEncoding.swift in Sources */,
 				5357DA551FD9AF30003B9EFA /* FMDatabasePool.m in Sources */,
 				5357DA321FD9AF1B003B9EFA /* Timeline.swift in Sources */,
@@ -399,12 +413,14 @@
 				5357DA3F1FD9AF1B003B9EFA /* SessionManager.swift in Sources */,
 				5357DA401FD9AF1B003B9EFA /* AFError.swift in Sources */,
 				5357DA361FD9AF1B003B9EFA /* NetworkReachabilityManager.swift in Sources */,
+				5357DA5B1FD9B7C6003B9EFA /* Productpage.swift in Sources */,
 				5357DA371FD9AF1B003B9EFA /* ResponseSerialization.swift in Sources */,
 				5357DA3B1FD9AF1B003B9EFA /* Alamofire.swift in Sources */,
 				5357DA381FD9AF1B003B9EFA /* Validation.swift in Sources */,
 				5357DA351FD9AF1B003B9EFA /* MultipartFormData.swift in Sources */,
 				5357DA591FD9AFB9003B9EFA /* SQLiteManager.swift in Sources */,
 				5357DA3E1FD9AF1B003B9EFA /* SessionDelegate.swift in Sources */,
+				5357DA611FD9B88B003B9EFA /* Subcategory.swift in Sources */,
 				5357DA571FD9AF30003B9EFA /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
