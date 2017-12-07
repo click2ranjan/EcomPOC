@@ -14,6 +14,32 @@
 		5357D9F81FD9AB3E003B9EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5357D9F61FD9AB3E003B9EFA /* LaunchScreen.storyboard */; };
 		5357DA031FD9AB3F003B9EFA /* EcomPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA021FD9AB3F003B9EFA /* EcomPOCTests.swift */; };
 		5357DA0E1FD9AB3F003B9EFA /* EcomPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA0D1FD9AB3F003B9EFA /* EcomPOCUITests.swift */; };
+		5357DA321FD9AF1B003B9EFA /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA1E1FD9AF19003B9EFA /* Timeline.swift */; };
+		5357DA331FD9AF1B003B9EFA /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA1F1FD9AF19003B9EFA /* DispatchQueue+Alamofire.swift */; };
+		5357DA341FD9AF1B003B9EFA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5357DA201FD9AF19003B9EFA /* Info.plist */; };
+		5357DA351FD9AF1B003B9EFA /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA211FD9AF19003B9EFA /* MultipartFormData.swift */; };
+		5357DA361FD9AF1B003B9EFA /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA221FD9AF19003B9EFA /* NetworkReachabilityManager.swift */; };
+		5357DA371FD9AF1B003B9EFA /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA231FD9AF19003B9EFA /* ResponseSerialization.swift */; };
+		5357DA381FD9AF1B003B9EFA /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA241FD9AF19003B9EFA /* Validation.swift */; };
+		5357DA391FD9AF1B003B9EFA /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA251FD9AF19003B9EFA /* ServerTrustPolicy.swift */; };
+		5357DA3A1FD9AF1B003B9EFA /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA271FD9AF1A003B9EFA /* ParameterEncoding.swift */; };
+		5357DA3B1FD9AF1B003B9EFA /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA281FD9AF1A003B9EFA /* Alamofire.swift */; };
+		5357DA3C1FD9AF1B003B9EFA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA291FD9AF1A003B9EFA /* Result.swift */; };
+		5357DA3D1FD9AF1B003B9EFA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA2A1FD9AF1A003B9EFA /* Notifications.swift */; };
+		5357DA3E1FD9AF1B003B9EFA /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA2B1FD9AF1A003B9EFA /* SessionDelegate.swift */; };
+		5357DA3F1FD9AF1B003B9EFA /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA2C1FD9AF1A003B9EFA /* SessionManager.swift */; };
+		5357DA401FD9AF1B003B9EFA /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA2D1FD9AF1B003B9EFA /* AFError.swift */; };
+		5357DA411FD9AF1B003B9EFA /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA2E1FD9AF1B003B9EFA /* Request.swift */; };
+		5357DA421FD9AF1B003B9EFA /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA2F1FD9AF1B003B9EFA /* Response.swift */; };
+		5357DA431FD9AF1B003B9EFA /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5357DA301FD9AF1B003B9EFA /* Info-tvOS.plist */; };
+		5357DA441FD9AF1B003B9EFA /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA311FD9AF1B003B9EFA /* TaskDelegate.swift */; };
+		5357DA521FD9AF30003B9EFA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA461FD9AF2F003B9EFA /* FMDatabase.m */; };
+		5357DA531FD9AF30003B9EFA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA481FD9AF2F003B9EFA /* FMResultSet.m */; };
+		5357DA541FD9AF30003B9EFA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5357DA491FD9AF2F003B9EFA /* Info.plist */; };
+		5357DA551FD9AF30003B9EFA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA4D1FD9AF30003B9EFA /* FMDatabasePool.m */; };
+		5357DA561FD9AF30003B9EFA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA4E1FD9AF30003B9EFA /* FMDatabaseQueue.m */; };
+		5357DA571FD9AF30003B9EFA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA501FD9AF30003B9EFA /* FMDatabaseAdditions.m */; };
+		5357DA591FD9AFB9003B9EFA /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357DA581FD9AFB9003B9EFA /* SQLiteManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +73,40 @@
 		5357DA091FD9AB3F003B9EFA /* EcomPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5357DA0D1FD9AB3F003B9EFA /* EcomPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomPOCUITests.swift; sourceTree = "<group>"; };
 		5357DA0F1FD9AB3F003B9EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5357DA1E1FD9AF19003B9EFA /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		5357DA1F1FD9AF19003B9EFA /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		5357DA201FD9AF19003B9EFA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5357DA211FD9AF19003B9EFA /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		5357DA221FD9AF19003B9EFA /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		5357DA231FD9AF19003B9EFA /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		5357DA241FD9AF19003B9EFA /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		5357DA251FD9AF19003B9EFA /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		5357DA261FD9AF1A003B9EFA /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alamofire.h; sourceTree = "<group>"; };
+		5357DA271FD9AF1A003B9EFA /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		5357DA281FD9AF1A003B9EFA /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		5357DA291FD9AF1A003B9EFA /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5357DA2A1FD9AF1A003B9EFA /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		5357DA2B1FD9AF1A003B9EFA /* SessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		5357DA2C1FD9AF1A003B9EFA /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		5357DA2D1FD9AF1B003B9EFA /* AFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		5357DA2E1FD9AF1B003B9EFA /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		5357DA2F1FD9AF1B003B9EFA /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		5357DA301FD9AF1B003B9EFA /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		5357DA311FD9AF1B003B9EFA /* TaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		5357DA451FD9AF2E003B9EFA /* EcomPOC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EcomPOC-Bridging-Header.h"; sourceTree = "<group>"; };
+		5357DA461FD9AF2F003B9EFA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		5357DA471FD9AF2F003B9EFA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5357DA481FD9AF2F003B9EFA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		5357DA491FD9AF2F003B9EFA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5357DA4A1FD9AF30003B9EFA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		5357DA4B1FD9AF30003B9EFA /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		5357DA4C1FD9AF30003B9EFA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		5357DA4D1FD9AF30003B9EFA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		5357DA4E1FD9AF30003B9EFA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5357DA4F1FD9AF30003B9EFA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5357DA501FD9AF30003B9EFA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5357DA511FD9AF30003B9EFA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		5357DA581FD9AFB9003B9EFA /* SQLiteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +137,7 @@
 		5357D9E11FD9AB3E003B9EFA = {
 			isa = PBXGroup;
 			children = (
+				5357DA1B1FD9AE43003B9EFA /* ThirdPartylibs */,
 				5357D9EC1FD9AB3E003B9EFA /* EcomPOC */,
 				5357DA011FD9AB3F003B9EFA /* EcomPOCTests */,
 				5357DA0C1FD9AB3F003B9EFA /* EcomPOCUITests */,
@@ -103,6 +164,7 @@
 				5357D9F41FD9AB3E003B9EFA /* Assets.xcassets */,
 				5357D9F61FD9AB3E003B9EFA /* LaunchScreen.storyboard */,
 				5357D9F91FD9AB3F003B9EFA /* Info.plist */,
+				5357DA581FD9AFB9003B9EFA /* SQLiteManager.swift */,
 			);
 			path = EcomPOC;
 			sourceTree = "<group>";
@@ -123,6 +185,62 @@
 				5357DA0F1FD9AB3F003B9EFA /* Info.plist */,
 			);
 			path = EcomPOCUITests;
+			sourceTree = "<group>";
+		};
+		5357DA1B1FD9AE43003B9EFA /* ThirdPartylibs */ = {
+			isa = PBXGroup;
+			children = (
+				5357DA1D1FD9AE7F003B9EFA /* Alamofire */,
+				5357DA1C1FD9AE73003B9EFA /* FMDB */,
+			);
+			path = ThirdPartylibs;
+			sourceTree = "<group>";
+		};
+		5357DA1C1FD9AE73003B9EFA /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				5357DA4C1FD9AF30003B9EFA /* FMDatabase.h */,
+				5357DA461FD9AF2F003B9EFA /* FMDatabase.m */,
+				5357DA4F1FD9AF30003B9EFA /* FMDatabaseAdditions.h */,
+				5357DA501FD9AF30003B9EFA /* FMDatabaseAdditions.m */,
+				5357DA4A1FD9AF30003B9EFA /* FMDatabasePool.h */,
+				5357DA4D1FD9AF30003B9EFA /* FMDatabasePool.m */,
+				5357DA471FD9AF2F003B9EFA /* FMDatabaseQueue.h */,
+				5357DA4E1FD9AF30003B9EFA /* FMDatabaseQueue.m */,
+				5357DA4B1FD9AF30003B9EFA /* FMDB.h */,
+				5357DA511FD9AF30003B9EFA /* FMResultSet.h */,
+				5357DA481FD9AF2F003B9EFA /* FMResultSet.m */,
+				5357DA491FD9AF2F003B9EFA /* Info.plist */,
+				5357DA451FD9AF2E003B9EFA /* EcomPOC-Bridging-Header.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		5357DA1D1FD9AE7F003B9EFA /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				5357DA2D1FD9AF1B003B9EFA /* AFError.swift */,
+				5357DA261FD9AF1A003B9EFA /* Alamofire.h */,
+				5357DA281FD9AF1A003B9EFA /* Alamofire.swift */,
+				5357DA1F1FD9AF19003B9EFA /* DispatchQueue+Alamofire.swift */,
+				5357DA301FD9AF1B003B9EFA /* Info-tvOS.plist */,
+				5357DA201FD9AF19003B9EFA /* Info.plist */,
+				5357DA211FD9AF19003B9EFA /* MultipartFormData.swift */,
+				5357DA221FD9AF19003B9EFA /* NetworkReachabilityManager.swift */,
+				5357DA2A1FD9AF1A003B9EFA /* Notifications.swift */,
+				5357DA271FD9AF1A003B9EFA /* ParameterEncoding.swift */,
+				5357DA2E1FD9AF1B003B9EFA /* Request.swift */,
+				5357DA2F1FD9AF1B003B9EFA /* Response.swift */,
+				5357DA231FD9AF19003B9EFA /* ResponseSerialization.swift */,
+				5357DA291FD9AF1A003B9EFA /* Result.swift */,
+				5357DA251FD9AF19003B9EFA /* ServerTrustPolicy.swift */,
+				5357DA2B1FD9AF1A003B9EFA /* SessionDelegate.swift */,
+				5357DA2C1FD9AF1A003B9EFA /* SessionManager.swift */,
+				5357DA311FD9AF1B003B9EFA /* TaskDelegate.swift */,
+				5357DA1E1FD9AF19003B9EFA /* Timeline.swift */,
+				5357DA241FD9AF19003B9EFA /* Validation.swift */,
+			);
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +311,7 @@
 				TargetAttributes = {
 					5357D9E91FD9AB3E003B9EFA = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					5357D9FD1FD9AB3F003B9EFA = {
@@ -232,6 +351,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5357DA431FD9AF1B003B9EFA /* Info-tvOS.plist in Resources */,
+				5357DA341FD9AF1B003B9EFA /* Info.plist in Resources */,
+				5357DA541FD9AF30003B9EFA /* Info.plist in Resources */,
 				5357D9F81FD9AB3E003B9EFA /* LaunchScreen.storyboard in Resources */,
 				5357D9F51FD9AB3E003B9EFA /* Assets.xcassets in Resources */,
 				5357D9F31FD9AB3E003B9EFA /* Main.storyboard in Resources */,
@@ -259,8 +381,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5357DA391FD9AF1B003B9EFA /* ServerTrustPolicy.swift in Sources */,
+				5357DA331FD9AF1B003B9EFA /* DispatchQueue+Alamofire.swift in Sources */,
+				5357DA441FD9AF1B003B9EFA /* TaskDelegate.swift in Sources */,
+				5357DA521FD9AF30003B9EFA /* FMDatabase.m in Sources */,
+				5357DA3A1FD9AF1B003B9EFA /* ParameterEncoding.swift in Sources */,
+				5357DA551FD9AF30003B9EFA /* FMDatabasePool.m in Sources */,
+				5357DA321FD9AF1B003B9EFA /* Timeline.swift in Sources */,
+				5357DA421FD9AF1B003B9EFA /* Response.swift in Sources */,
 				5357D9F01FD9AB3E003B9EFA /* ViewController.swift in Sources */,
+				5357DA3D1FD9AF1B003B9EFA /* Notifications.swift in Sources */,
+				5357DA531FD9AF30003B9EFA /* FMResultSet.m in Sources */,
 				5357D9EE1FD9AB3E003B9EFA /* AppDelegate.swift in Sources */,
+				5357DA561FD9AF30003B9EFA /* FMDatabaseQueue.m in Sources */,
+				5357DA411FD9AF1B003B9EFA /* Request.swift in Sources */,
+				5357DA3C1FD9AF1B003B9EFA /* Result.swift in Sources */,
+				5357DA3F1FD9AF1B003B9EFA /* SessionManager.swift in Sources */,
+				5357DA401FD9AF1B003B9EFA /* AFError.swift in Sources */,
+				5357DA361FD9AF1B003B9EFA /* NetworkReachabilityManager.swift in Sources */,
+				5357DA371FD9AF1B003B9EFA /* ResponseSerialization.swift in Sources */,
+				5357DA3B1FD9AF1B003B9EFA /* Alamofire.swift in Sources */,
+				5357DA381FD9AF1B003B9EFA /* Validation.swift in Sources */,
+				5357DA351FD9AF1B003B9EFA /* MultipartFormData.swift in Sources */,
+				5357DA591FD9AFB9003B9EFA /* SQLiteManager.swift in Sources */,
+				5357DA3E1FD9AF1B003B9EFA /* SessionDelegate.swift in Sources */,
+				5357DA571FD9AF30003B9EFA /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,12 +571,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57XYAW8EHH;
 				INFOPLIST_FILE = EcomPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ranjan.EcomPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdPartylibs/FMDB/EcomPOC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,12 +589,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57XYAW8EHH;
 				INFOPLIST_FILE = EcomPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ranjan.EcomPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdPartylibs/FMDB/EcomPOC-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
