@@ -47,7 +47,7 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
         
         //let searchDetailsDict1 : NSDictionary = searchDetailsDict.value(forKey: "products") as! NSDictionary
         
-        cell.lbl_time.text = searchDetailsDict.value(forKey: "name") as! String
+        cell.lbl_CategoryName.text = searchDetailsDict.value(forKey: "name") as! String
         //cell.lbl_cardNumber.text = searchDetailsDict.value(forKey: "id") as! String
         
         return cell
